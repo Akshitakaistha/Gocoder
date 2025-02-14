@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Gocoder</title>
+      <!-- Favicons -->
+      <link href="assets/img/Gocoder-icon.png" rel="icon" />
+      <link href="assets/img/Gocoder-icon.png" rel="apple-touch-icon" />
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com" rel="preconnect" />
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+         rel="stylesheet">
+      <!-- Vendor CSS Files -->
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css"rel="stylesheet" />
+      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+      <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+      <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+      <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+      <!-- Main CSS File -->
+      <link href="assets/css/main.css" rel="stylesheet" />
+   </head>
+   <body>
+      <!-------------Header-------------------->
+      <header id="header" class="header d-flex align-items-center fixed-top">
+         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/Gocoder-logo.png" alt="Gocoder-logo">
+            </a>
+            <nav id="navmenu" class="navmenu navbar navbar-expand-lg navbar-light ">
+               <ul>
+                  <li class="dropdown">
+                     <a href="#"><span>Services</span>
+                     <i class="bi bi-chevron-down toggle-dropdown"></i>
+                     </a>
+                     <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Mobile App Development</a></li>
+                        <li><a href="#">Digital & Social Media</a></li>
+                        <li><a href="#">UI & UX Development</a></li>
+                        <li><a href="#">Managed Services</a></li>
+                     </ul>
+                  </li>
+                  <li class="nav-item position-relative">
+                     <a class="nav-link">
+                     Form Builder
+                     <i class="bi bi-chevron-down"></i>
+                     </a>
+                     <div class="mega-menu">
+                        <div class="column">
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-grip-horizontal"></i>
+                              </div>
+                              <span>Drag & Drop</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-bookmark"></i>
+                              </div>
+                              <span>Form Templates</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-journal-text"></i>
+                              </div>
+                              <span>Embed Forms</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-envelope-open"></i>
+                              </div>
+                              <span>Notification Emails<span>
+                           </div>
+                        </div>
+                        <div class="column">
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-share"></i>
+                              </div>
+                              <span>Share @ Social Media</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-file-earmark-pdf"></i>
+                              </div>
+                              <span>Convert into PDF</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-cloud-arrow-up-fill"></i>
+                              </div>
+                              <span>File Upload</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-qr-code"></i>
+                              </div>
+                              <span>QR Code Forms</span>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="nav-item position-relative">
+                     <a class="nav-link">
+                     Integrations
+                     <i class="bi bi-chevron-down"></i>
+                     </a>
+                     <div class="mega-menu">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                           <div class="col">
+                              <div class="product-item mb-2">
+                                 <span><i class="bi bi-gear-fill me-2"></i>CMS</span>
+                              </div>
+                              <a href="#" class="mt-2">Drupal</a>
+                              <a href="#">Wordpress</a>
+                              <a href="#">Joomla</a>
+                              <a href="#">Hubspot</a>
+                           </div>
+                           <div class="col">
+                              <div class="product-item">
+                                 <span><i class="bi bi-chat-dots-fill me-2"></i>CRM</span>
+                              </div>
+                              <a href="#" class="mt-2">zoho</a>
+                              <a href="#">Hubspot</a>
+                              <a href="#">Salesforce</a>
+                              <a href="#">24/7</a>
+                           </div>
+                           <div class="col">
+                              <div class="product-item">
+                                 <span><i class="bi bi-credit-card-2-back-fill me-2"></i>Payment</span>
+                              </div>
+                              <a href="#" class="mt-2">Paypal</a>
+                              <a href="#">Google Pay</a>
+                              <a href="#">Apple Pay</a>
+                              <a href="#">Stripe</a>
+                           </div>
+                           <div class="col">
+                              <div class="product-item">
+                                 <span><i class="bi bi-floppy-fill me-2"></i>Storage<span>
+                              </div>
+                              <a href="#" class="mt-2">Onedrive</a>
+                              <a href="#">Google Drive</a>
+                              <a href="#">Dropbox</a>
+                              <a href="#">iCloud</a>
+                           </div>
+                           <div class="col">
+                              <div class="product-item">
+                                 <span><i class="bi bi-envelope-open-fill me-2"></i>Mails</span>
+                              </div>
+                              <a href="#" class="mt-2">Gmail</a>
+                              <a href="#">zoho mail</a>
+                              <a href="#">Mailchimp</a>
+                              <a href="#">Outlook</a>
+                           </div>
+                           <div class="col">
+                              <div class="product-item">
+                                 <span><i class="bi bi-kanban me-1"></i>Project Management</span>
+                              </div>
+                              <a href="#" class="mt-2">Asana</a>
+                              <a href="#">Jira</a>
+                              <a href="#">Trello</a>
+                              <a href="#">Slack</a>
+                           </div>
+                           <div class="col">
+                              <div class="product-item">
+                                 <span><i class="bi bi-globe-central-south-asia me-2"></i>Social Media</span>
+                              </div>
+                              <a href="#" class="mt-2">X</a>
+                              <a href="#">Instagram</a>
+                              <a href="#">Facebook</a>
+                              <a href="#">Hotsuite</a>
+                           </div>
+                           <div class="col-md-6">
+                              <img src="assets/img/mega-menu/mega-menu-img-1.png" class="mega-menu-img" alt="Mega-menu integrations" />
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="nav-item position-relative">
+                     <a class="nav-link">
+                     360° Communication
+                     <i class="bi bi-chevron-down"></i>
+                     </a>
+                     <div class="mega-menu">
+                        <div class="column">
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-telephone"></i>
+                              </div>
+                              <span>IVR</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-megaphone"></i>
+                              </div>
+                              <span>Voice Broadcast</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-whatsapp"></i>
+                              </div>
+                              <span>Whatsapp API & Bot</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-cloud"></i>
+                              </div>
+                              <span>Cloud Call Center <span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-discord"></i>
+                              </div>
+                              <span>Chatbot AI</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-people-fill"></i>
+                              </div>
+                              <span>Event Builder</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-journal-richtext"></i>
+                              </div>
+                              <span>Forms</span>
+                           </div>
+                        </div>
+                        <div class="column">
+                           <img src="assets/img/mega-menu/mega-menu-img-2.png" class="mega-menu-img-2" alt="Mega-menu Communication" />
+                        </div>
+                     </div>
+                  </li>
+                  <li class="nav-item position-relative">
+                     <a class="nav-link">
+                     Solutions
+                     <i class="bi bi-chevron-down"></i>
+                     </a>
+                     <div class="mega-menu">
+                        <div class="column">
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-mortarboard-fill"></i>
+                              </div>
+                              <span>Education</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-house-door-fill"></i>
+                              </div>
+                              <span>Real Estate</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-hospital"></i>
+                              </div>
+                              <span>Healthcare</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-bank"></i>
+                              </div>
+                              <span>Financial Services<span>
+                           </div>
+                        </div>
+                        <div class="column">
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-luggage"></i>
+                              </div>
+                              <span>Travel & Tourism</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-person-square"></i>
+                              </div>
+                              <span>Government</span>
+                           </div>
+                           <div class="product-item">
+                              <div class="product-icon">
+                                 <i class="bi bi-cart"></i>
+                              </div>
+                              <span>E-commerce & Retail</span>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#"><span>Resources</span>
+                     <i class="bi bi-chevron-down toggle-dropdown"></i>
+                     </a>
+                     <ul>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Use Cases</a></li>
+                        <li><a href="#">Insights</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </nav>
+            <a href="https://wa.me/9216490490" class="btn-get-started">Get Started</a>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+         </div>
+      </header>
+      <!-----Main section-->
+      <main class="main">
+			<!---Hero section---->
+         <section id="hero" class="hero section">
+            <div class="gradient">
+               <div class="container">
+                  <h1 class="d-flex flex-column justify-content-center align-items-center mb-3 text-center">
+                     Data-Driven Strategies, Customer-Centric Designs
+                     <br>
+                     <span class="hero-sub-hdng">Digital Transformation & Marketing Solutions</span>
+                  </h1>
+                  <p>
+                     Our research-oriented approach combines data-driven insights with cutting-edge technology to create innovative solutions 
+							that enhance brand engagement and drive growth.We empower organizations to connect with their audience in meaningful ways. 
+							Partner with us for seamless, impactful digital strategies backed by in-depth research.
+                  </p>
+                  <div class="d-flex justify-content-center align-items-center">
+                     <a href="https://wa.me/9216490490" class="btn-get-started">Get Started</a>
+                     <a href="https://calendly.com/bavneet-taneja/30min" class="glightbox btn-watch-video d-flex align-items-center" >
+                     <i class="bi bi-people"></i>
+                     <span>20 min FREE CONSULTATION</span></a>
+                  </div>
+                  <div class="container hero-banner-item">
+                  </div>
+               </div>
+            </div>
+            <svg
+               class="hero-waves"
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               viewBox="0 24 150 28 "
+               preserveAspectRatio="none"
+               >
+               <defs>
+                  <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+               </defs>
+               <g class="wave1">
+                  <use xlink:href="#wave-path" x="50" y="3"> </use>
+               </g>
+               <g class="wave2">
+                  <use xlink:href="#wave-path" x="50" y="0"></use>
+               </g>
+               <g class="wave3">
+                  <use xlink:href="#wave-path" x="50" y="9"></use>
+               </g>
+            </svg>
+         </section>
+         <!-- Our services Section -->
+         <section id="services" class="about section">
+            <div class="container">
+               <div class="content d-flex flex-column align-items-center justify-content-center">
+                  <h3>Our Services</h3>
+                  <h2>Turning Ideas into Impactful Digital Products</h2>
+                  <p class="service-p">
+							Our commitment lies in continuously conceptualizing, innovating, engineering, and developing new solutions that drive change in global markets.
+						</p>
+               </div>
+               <div class="col-xl-7">
+                  <div class="process-container">
+                     <div class="row">
+                        <div class="description">
+                           <h3>Step 1: UI/UX Design</h3>
+                           <ul>
+                              <li>Creating wireframes and prototypes</li>
+                              <li>User-friendly & interactive design</li>
+                              <li>Optimized UX for engagement</li>
+                           </ul>
+                        </div>
+                        <div class="code-block">
+                           <div class="terminal-header">
+                              <span class="yellow"></span>
+                              <span class="red"></span>
+                              <span class="green"></span>
+                           </div>
+                           <code>figma.design/prototype/example</code>
+                        </div>
+                        <div class="workflow-separator">
+                           <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjE3IiBoZWlnaHQ9IjIzMyIgdmlld0JveD0iMCAwIDYxNyAyMzMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik02MTYgMFY5MS43NDYxQzYxNiAxMDUuNTUzIDYwNC44MDcgMTE2Ljc0NiA1OTEgMTE2Ljc0NkgyNkMxMi4xOTI5IDExNi43NDYgMS4wMDAwMSAxMjcuOTM5IDEuMDAwMDEgMTQxLjc0NlYyMzMiIHN0cm9rZT0idXJsKCNwYWludDBfbGluZWFyXzQwMTdfMzgzOTYpIiBzdHJva2UtZGFzaGFycmF5PSI4IDgiLz4KPHBhdGggZD0iTTI4OC41IDExNy4yNDZDMjg4LjIyNCAxMTcuMjQ2IDI4OCAxMTcuMDIyIDI4OCAxMTYuNzQ2QzI4OCAxMTYuNDcgMjg4LjIyNCAxMTYuMjQ2IDI4OC41IDExNi4yNDZWMTE3LjI0NlpNMzE1IDExNy4yNDZIMzExLjY4OFYxMTYuMjQ2SDMxNVYxMTcuMjQ2Wk0zMDUuMDYyIDExNy4yNDZIMjk4LjQzOFYxMTYuMjQ2SDMwNS4wNjJWMTE3LjI0NlpNMjkxLjgxMiAxMTcuMjQ2SDI4OC41VjExNi4yNDZIMjkxLjgxMlYxMTcuMjQ2WiIgZmlsbD0idXJsKCNwYWludDFfbGluZWFyXzQwMTdfMzgzOTYpIi8+CjxwYXRoIGQ9Ik0zMDEuNjY0IDEwMy4zMzNWMTI5Ljk5NkwzMTQuOTk3IDExNi42NjRWOTBMMzAxLjY2NCAxMDMuMzMzWiIgc3Ryb2tlPSJ1cmwoI3BhaW50Ml9saW5lYXJfNDAxN18zODM5NikiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjg4LjMzNiA5MFYxMTYuNjY1IiBzdHJva2U9InVybCgjcGFpbnQzX2xpbmVhcl80MDE3XzM4Mzk2KSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtZGFzaGFycmF5PSI4IDgiLz4KPHBhdGggZD0iTTMwMS42NjcgMTAzLjMzM0gyNzUuMDAyVjEyOS45OThIMzAxLjY2N1YxMDMuMzMzWiIgc3Ryb2tlPSJ1cmwoI3BhaW50NF9saW5lYXJfNDAxN18zODM5NikiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjc1IDEyOS45OTZMMjg4LjMzMiAxMTYuNjY0TDI3NSAxMjkuOTk2WiIgc3Ryb2tlPSJ1cmwoI3BhaW50NV9saW5lYXJfNDAxN18zODM5NikiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1kYXNoYXJyYXk9IjggOCIvPgo8cGF0aCBkPSJNMzAxLjY2NiAxMDMuMzMzSDI3NS4wMDJMMjg4LjMzNCA5MEgzMTQuOTk4TDMwMS42NjYgMTAzLjMzM1oiIHN0cm9rZT0idXJsKCNwYWludDZfbGluZWFyXzQwMTdfMzgzOTYpIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhcl80MDE3XzM4Mzk2IiB4MT0iNDYxLjY2MiIgeTE9IjIwLjg0ODgiIHgyPSIyMTguNzI2IiB5Mj0iMjE2LjE4NiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0E2NEZBIi8+CjxzdG9wIG9mZnNldD0iMC45NDI3MDciIHN0b3AtY29sb3I9IiNGRjU4OTQiLz4KPC9saW5lYXJHcmFkaWVudD4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDFfbGluZWFyXzQwMTdfMzgzOTYiIHgxPSIyODgiIHkxPSIxMTciIHgyPSIzMjYuNzI5IiB5Mj0iMTEzLjc2MiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0E2NEZBIi8+CjxzdG9wIG9mZnNldD0iMC4yMzU5ODkiIHN0b3AtY29sb3I9IiNBOTVFQzEiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkY1ODk0Ii8+CjwvbGluZWFyR3JhZGllbnQ+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQyX2xpbmVhcl80MDE3XzM4Mzk2IiB4MT0iMzA0LjUiIHkxPSIxMjguNSIgeDI9IjMxMS4zNjMiIHkyPSI5Mi40OTczIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMzQTY0RkEiLz4KPHN0b3Agb2Zmc2V0PSIwLjY2NDUxMiIgc3RvcC1jb2xvcj0iI0Y5NjNCQyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50M19saW5lYXJfNDAxN18zODM5NiIgeDE9IjI4OSIgeTE9IjExNi41IiB4Mj0iMjc2Ljk0OSIgeTI9Ijk4LjkxNjkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzNBNjRGQSIvPgo8c3RvcCBvZmZzZXQ9IjAuOTQyNzA3IiBzdG9wLWNvbG9yPSIjRjk2M0JDIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQ0X2xpbmVhcl80MDE3XzM4Mzk2IiB4MT0iMjg5LjAxNCIgeTE9IjEyNC40MTEiIHgyPSIyNzYuMTMxIiB5Mj0iMTI0LjM4NSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0E2NEZBIi8+CjxzdG9wIG9mZnNldD0iMC45NDI3MDciIHN0b3AtY29sb3I9IiNGOTYzQkMiLz4KPC9saW5lYXJHcmFkaWVudD4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDVfbGluZWFyXzQwMTdfMzgzOTYiIHgxPSIyODIuNTY1IiB5MT0iMTIzLjU0OSIgeDI9IjI3NS44ODgiIHkyPSIxMjkuNzM3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMzQTY0RkEiLz4KPHN0b3Agb2Zmc2V0PSIwLjk0MjcwNyIgc3RvcC1jb2xvcj0iI0Y5NjNCQyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50Nl9saW5lYXJfNDAxN18zODM5NiIgeDE9IjI5Ni4wMTkiIHkxPSIxMDAuNTM5IiB4Mj0iMjc2LjY5NiIgeTI9IjEwMC40MjIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzNBNjRGQSIvPgo8c3RvcCBvZmZzZXQ9IjAuOTQyNzA3IiBzdG9wLWNvbG9yPSIjRjk2M0JDIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg==" alt="">
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="code-block">
+                           <div class="terminal-header">
+                              <span class="red"></span>
+                              <span class="yellow"></span>
+                              <span class="green"></span>
+                           </div>
+                           <code>&lt;!-- Web Development Code --&gt;
+                           &lt;html&gt;
+                           &lt;body&gt;&lt;h1&gt;Hello, World!&lt;/h1&gt;&lt;/body&gt;
+                           &lt;/html&gt;</code>
+                           &lt;head&gt;&lt;title&gt;Website&lt;/title&gt;&lt;/head&gt;
+                        </div>
+                        <div class="description">
+                           <h3>Step 2: Web Development</h3>
+                           <ul>
+                              <li>Responsive website design</li>
+                              <li>Scalable front-end & back-end</li>
+                              <li>SEO & performance optimization</li>
+                           </ul>
+                        </div>
+                        <div class="workflow-separator">
+                           <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjIzMyIgdmlld0JveD0iMCAwIDYwMCAyMzMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDBWOTAuNjUxN0MxIDEwNC40NTkgMTIuMTkyOSAxMTUuNjUyIDI2IDExNS42NTJINTc0QzU4Ny44MDcgMTE1LjY1MiA1OTkgMTI2Ljg0NSA1OTkgMTQwLjY1MlYyMzMiIHN0cm9rZT0idXJsKCNwYWludDBfbGluZWFyXzQwMTdfMzgzOTkpIiBzdHJva2UtZGFzaGFycmF5PSI4IDgiLz4KPHBhdGggZD0iTTI2OS44NzEgMTI4LjM4OEwyNTAuODUgMTE1LjgxNEwyNzEuOTMyIDgzLjE1N0wyNjkuODcxIDEyOC4zODhaIiBmaWxsPSIjMDUwMTEwIi8+CjxwYXRoIGQ9Ik0yNzEuOTMxIDgzLjE1NjlMMzAwLjg3IDExNS42OThMMjY5Ljg3IDEyOC4zODhMMjcxLjkzMSA4My4xNTY5WiIgZmlsbD0iIzA1MDExMCIvPgo8cGF0aCBkPSJNMjUwLjUgMTE1LjY1MkwyOTkuNSAxMTUuNjUyIiBzdHJva2U9InVybCgjcGFpbnQxX2xpbmVhcl80MDE3XzM4Mzk5KSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtZGFzaGFycmF5PSI4IDgiLz4KPHBhdGggZD0iTTI2OS44NzEgMTI4LjM4OEwyNTAuNSAxMTUuNUwyNzEuOTMyIDgzLjE1N0wyNjkuODcxIDEyOC4zODhaIiBzdHJva2U9InVybCgjcGFpbnQyX2xpbmVhcl80MDE3XzM4Mzk5KSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yNzEuOTMxIDgzLjE1NjlMMzAwLjg3IDExNS42OThMMjY5Ljg3IDEyOC4zODhMMjcxLjkzMSA4My4xNTY5WiIgc3Ryb2tlPSJ1cmwoI3BhaW50M19saW5lYXJfNDAxN18zODM5OSkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyXzQwMTdfMzgzOTkiIHgxPSIxNTEuMDcyIiB5MT0iNS45MDU1OSIgeDI9IjQxNi4yNDgiIHkyPSIxODcuMDY5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMzQTY0RkEiLz4KPHN0b3Agb2Zmc2V0PSIwLjk0MjcwNyIgc3RvcC1jb2xvcj0iI0ZGNTg5NCIvPgo8L2xpbmVhckdyYWRpZW50Pgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MV9saW5lYXJfNDAxN18zODM5OSIgeDE9IjI1My40OTMiIHkxPSIyLjgyOTE2ZSswNiIgeDI9IjMxMS45OTMiIHkyPSIyLjgyOTE2ZSswNiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0E2NEZBIi8+CjxzdG9wIG9mZnNldD0iMC45NDI3MDciIHN0b3AtY29sb3I9IiNGRjU4OTQiLz4KPC9saW5lYXJHcmFkaWVudD4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDJfbGluZWFyXzQwMTdfMzgzOTkiIHgxPSIyNjIuMjc2IiB5MT0iMTE5LjU3NSIgeDI9IjI3My44NDMiIHkyPSIxMTguNjA2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMzQTY0RkEiLz4KPHN0b3Agb2Zmc2V0PSIwLjk0MjcwNyIgc3RvcC1jb2xvcj0iI0Y5NjNCQyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50M19saW5lYXJfNDAxN18zODM5OSIgeDE9IjI4NC4yIiB5MT0iMTE3Ljc2MiIgeDI9IjI5OS41NzciIHkyPSIxMTYuNDY3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMzQTY0RkEiLz4KPHN0b3Agb2Zmc2V0PSIwLjk0MjcwNyIgc3RvcC1jb2xvcj0iI0Y5NjNCQyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=" alt="">
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="description">
+                           <h3>Step 3: Mobile Development</h3>
+                           <ul>
+                              <li>Native & hybrid mobile apps</li>
+                              <li>Optimized UI for mobile users</li>
+                              <li>Cross-platform compatibility</li>
+                           </ul>
+                        </div>
+                        <div class="code-block">
+                           <div class="terminal-header">
+                              <span class="red"></span>
+                              <span class="yellow"></span>
+                              <span class="green"></span>
+                           </div>
+                           <code>
+                              // React Native Code
+                              const App = () => {
+                              return (
+                              <Text>Hello Mobile</Text>
+                              );
+                              };
+                           </code>
+                        </div>
+                        <div class="workflow-separator">
+                           <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjE3IiBoZWlnaHQ9IjIzMyIgdmlld0JveD0iMCAwIDYxNyAyMzMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik02MTYgMFY5MS43NDYxQzYxNiAxMDUuNTUzIDYwNC44MDcgMTE2Ljc0NiA1OTEgMTE2Ljc0NkgyNkMxMi4xOTI5IDExNi43NDYgMS4wMDAwMSAxMjcuOTM5IDEuMDAwMDEgMTQxLjc0NlYyMzMiIHN0cm9rZT0idXJsKCNwYWludDBfbGluZWFyXzQwMTdfMzgzOTYpIiBzdHJva2UtZGFzaGFycmF5PSI4IDgiLz4KPHBhdGggZD0iTTI4OC41IDExNy4yNDZDMjg4LjIyNCAxMTcuMjQ2IDI4OCAxMTcuMDIyIDI4OCAxMTYuNzQ2QzI4OCAxMTYuNDcgMjg4LjIyNCAxMTYuMjQ2IDI4OC41IDExNi4yNDZWMTE3LjI0NlpNMzE1IDExNy4yNDZIMzExLjY4OFYxMTYuMjQ2SDMxNVYxMTcuMjQ2Wk0zMDUuMDYyIDExNy4yNDZIMjk4LjQzOFYxMTYuMjQ2SDMwNS4wNjJWMTE3LjI0NlpNMjkxLjgxMiAxMTcuMjQ2SDI4OC41VjExNi4yNDZIMjkxLjgxMlYxMTcuMjQ2WiIgZmlsbD0idXJsKCNwYWludDFfbGluZWFyXzQwMTdfMzgzOTYpIi8+CjxwYXRoIGQ9Ik0zMDEuNjY0IDEwMy4zMzNWMTI5Ljk5NkwzMTQuOTk3IDExNi42NjRWOTBMMzAxLjY2NCAxMDMuMzMzWiIgc3Ryb2tlPSJ1cmwoI3BhaW50Ml9saW5lYXJfNDAxN18zODM5NikiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjg4LjMzNiA5MFYxMTYuNjY1IiBzdHJva2U9InVybCgjcGFpbnQzX2xpbmVhcl80MDE3XzM4Mzk2KSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtZGFzaGFycmF5PSI4IDgiLz4KPHBhdGggZD0iTTMwMS42NjcgMTAzLjMzM0gyNzUuMDAyVjEyOS45OThIMzAxLjY2N1YxMDMuMzMzWiIgc3Ryb2tlPSJ1cmwoI3BhaW50NF9saW5lYXJfNDAxN18zODM5NikiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjc1IDEyOS45OTZMMjg4LjMzMiAxMTYuNjY0TDI3NSAxMjkuOTk2WiIgc3Ryb2tlPSJ1cmwoI3BhaW50NV9saW5lYXJfNDAxN18zODM5NikiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1kYXNoYXJyYXk9IjggOCIvPgo8cGF0aCBkPSJNMzAxLjY2NiAxMDMuMzMzSDI3NS4wMDJMMjg4LjMzNCA5MEgzMTQuOTk4TDMwMS42NjYgMTAzLjMzM1oiIHN0cm9rZT0idXJsKCNwYWludDZfbGluZWFyXzQwMTdfMzgzOTYpIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhcl80MDE3XzM4Mzk2IiB4MT0iNDYxLjY2MiIgeTE9IjIwLjg0ODgiIHgyPSIyMTguNzI2IiB5Mj0iMjE2LjE4NiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0E2NEZBIi8+CjxzdG9wIG9mZnNldD0iMC45NDI3MDciIHN0b3AtY29sb3I9IiNGRjU4OTQiLz4KPC9saW5lYXJHcmFkaWVudD4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDFfbGluZWFyXzQwMTdfMzgzOTYiIHgxPSIyODgiIHkxPSIxMTciIHgyPSIzMjYuNzI5IiB5Mj0iMTEzLjc2MiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0E2NEZBIi8+CjxzdG9wIG9mZnNldD0iMC4yMzU5ODkiIHN0b3AtY29sb3I9IiNBOTVFQzEiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkY1ODk0Ii8+CjwvbGluZWFyR3JhZGllbnQ+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQyX2xpbmVhcl80MDE3XzM4Mzk2IiB4MT0iMzA0LjUiIHkxPSIxMjguNSIgeDI9IjMxMS4zNjMiIHkyPSI5Mi40OTczIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMzQTY0RkEiLz4KPHN0b3Agb2Zmc2V0PSIwLjY2NDUxMiIgc3RvcC1jb2xvcj0iI0Y5NjNCQyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50M19saW5lYXJfNDAxN18zODM5NiIgeDE9IjI4OSIgeTE9IjExNi41IiB4Mj0iMjc2Ljk0OSIgeTI9Ijk4LjkxNjkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzNBNjRGQSIvPgo8c3RvcCBvZmZzZXQ9IjAuOTQyNzA3IiBzdG9wLWNvbG9yPSIjRjk2M0JDIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQ0X2xpbmVhcl80MDE3XzM4Mzk2IiB4MT0iMjg5LjAxNCIgeTE9IjEyNC40MTEiIHgyPSIyNzYuMTMxIiB5Mj0iMTI0LjM4NSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0E2NEZBIi8+CjxzdG9wIG9mZnNldD0iMC45NDI3MDciIHN0b3AtY29sb3I9IiNGOTYzQkMiLz4KPC9saW5lYXJHcmFkaWVudD4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDVfbGluZWFyXzQwMTdfMzgzOTYiIHgxPSIyODIuNTY1IiB5MT0iMTIzLjU0OSIgeDI9IjI3NS44ODgiIHkyPSIxMjkuNzM3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMzQTY0RkEiLz4KPHN0b3Agb2Zmc2V0PSIwLjk0MjcwNyIgc3RvcC1jb2xvcj0iI0Y5NjNCQyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50Nl9saW5lYXJfNDAxN18zODM5NiIgeDE9IjI5Ni4wMTkiIHkxPSIxMDAuNTM5IiB4Mj0iMjc2LjY5NiIgeTI9IjEwMC40MjIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzNBNjRGQSIvPgo8c3RvcCBvZmZzZXQ9IjAuOTQyNzA3IiBzdG9wLWNvbG9yPSIjRjk2M0JDIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg==" alt="">
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="code-block">
+                           <div class="terminal-header">
+                              <span class="red"></span>
+                              <span class="yellow"></span>
+                              <span class="green"></span>
+                           </div>
+                           <code>Campaign.launch("Social Media Ad", target_audience);</code>
+                        </div>
+                        <div class="description">
+                           <h3>Step 4: Digital & Social Media</h3>
+                           <ul>
+                              <li>Social media management</li>
+                              <li>Targeted ad campaigns</li>
+                              <li>Analytics-driven marketing</li>
+                           </ul>
+                        </div>
+                        <div class="workflow-separator">
+                           <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjIzMyIgdmlld0JveD0iMCAwIDYwMCAyMzMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDBWOTAuNjUxN0MxIDEwNC40NTkgMTIuMTkyOSAxMTUuNjUyIDI2IDExNS42NTJINTc0QzU4Ny44MDcgMTE1LjY1MiA1OTkgMTI2Ljg0NSA1OTkgMTQwLjY1MlYyMzMiIHN0cm9rZT0idXJsKCNwYWludDBfbGluZWFyXzQwMTdfMzgzOTkpIiBzdHJva2UtZGFzaGFycmF5PSI4IDgiLz4KPHBhdGggZD0iTTI2OS44NzEgMTI4LjM4OEwyNTAuODUgMTE1LjgxNEwyNzEuOTMyIDgzLjE1N0wyNjkuODcxIDEyOC4zODhaIiBmaWxsPSIjMDUwMTEwIi8+CjxwYXRoIGQ9Ik0yNzEuOTMxIDgzLjE1NjlMMzAwLjg3IDExNS42OThMMjY5Ljg3IDEyOC4zODhMMjcxLjkzMSA4My4xNTY5WiIgZmlsbD0iIzA1MDExMCIvPgo8cGF0aCBkPSJNMjUwLjUgMTE1LjY1MkwyOTkuNSAxMTUuNjUyIiBzdHJva2U9InVybCgjcGFpbnQxX2xpbmVhcl80MDE3XzM4Mzk5KSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtZGFzaGFycmF5PSI4IDgiLz4KPHBhdGggZD0iTTI2OS44NzEgMTI4LjM4OEwyNTAuNSAxMTUuNUwyNzEuOTMyIDgzLjE1N0wyNjkuODcxIDEyOC4zODhaIiBzdHJva2U9InVybCgjcGFpbnQyX2xpbmVhcl80MDE3XzM4Mzk5KSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yNzEuOTMxIDgzLjE1NjlMMzAwLjg3IDExNS42OThMMjY5Ljg3IDEyOC4zODhMMjcxLjkzMSA4My4xNTY5WiIgc3Ryb2tlPSJ1cmwoI3BhaW50M19saW5lYXJfNDAxN18zODM5OSkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyXzQwMTdfMzgzOTkiIHgxPSIxNTEuMDcyIiB5MT0iNS45MDU1OSIgeDI9IjQxNi4yNDgiIHkyPSIxODcuMDY5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMzQTY0RkEiLz4KPHN0b3Agb2Zmc2V0PSIwLjk0MjcwNyIgc3RvcC1jb2xvcj0iI0ZGNTg5NCIvPgo8L2xpbmVhckdyYWRpZW50Pgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MV9saW5lYXJfNDAxN18zODM5OSIgeDE9IjI1My40OTMiIHkxPSIyLjgyOTE2ZSswNiIgeDI9IjMxMS45OTMiIHkyPSIyLjgyOTE2ZSswNiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0E2NEZBIi8+CjxzdG9wIG9mZnNldD0iMC45NDI3MDciIHN0b3AtY29sb3I9IiNGRjU4OTQiLz4KPC9saW5lYXJHcmFkaWVudD4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDJfbGluZWFyXzQwMTdfMzgzOTkiIHgxPSIyNjIuMjc2IiB5MT0iMTE5LjU3NSIgeDI9IjI3My44NDMiIHkyPSIxMTguNjA2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMzQTY0RkEiLz4KPHN0b3Agb2Zmc2V0PSIwLjk0MjcwNyIgc3RvcC1jb2xvcj0iI0Y5NjNCQyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50M19saW5lYXJfNDAxN18zODM5OSIgeDE9IjI4NC4yIiB5MT0iMTE3Ljc2MiIgeDI9IjI5OS41NzciIHkyPSIxMTYuNDY3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMzQTY0RkEiLz4KPHN0b3Agb2Zmc2V0PSIwLjk0MjcwNyIgc3RvcC1jb2xvcj0iI0Y5NjNCQyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=" alt="">
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="description">
+                           <h3>Step 5: Managed Services</h3>
+                           <ul>
+                              <li>24/7 monitoring & support</li>
+                              <li>Regular maintenance & updates</li>
+                              <li>Data security & compliance</li>
+                           </ul>
+                        </div>
+                        <div class="code-block">
+                           <div class="terminal-header">
+                              <span class="red"></span>
+                              <span class="yellow"></span>
+                              <span class="green"></span>
+                           </div>
+                           <code>monitoring.start("Server Health Check");</code>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- About us -->
+         <section id="about" class="stats section">
+            <div class="container">
+               <div class="row gy-4">
+                  <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                     <i class="bi bi-journal-richtext"></i>
+                     <div class="stats-item">
+                        <span class="purecounter">31+</span>
+                        <p>Operations</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center" >
+                     <i class="bi  bi-emoji-smile "></i>
+                     <div class="stats-item">
+                        <span class="purecounter">25+</span>
+                        <p>Awesome Clients</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                     <i class="bi bi-headset"></i>
+                     <div class="stats-item">
+                        <span class="purecounter">5+</span>
+                        <p>Years of Experience</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                     <i class="bi bi-people"></i>
+                     <div class="stats-item">
+                        <span class="purecounter">100+</span>
+                        <p>Team Members</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-----Integrations-->
+         <section id="integrations" class="integrations about section">
+            <div class="container">
+               <div class="content d-flex flex-column align-items-center justify-content-center mb-4">
+                  <h3>Integrations</h3>
+                  <h2>Seamless API Integrations - Connect, Automate, Innovate!</h2>
+               </div>
+               <div class="int-img-cont">
+                  <img src="assets/img/integrations.png" alt="Integrations image" class="int-img" />
+               </div>
+            </div>
+         </section>
+         <!-- Explore our solution -->
+         <section id="solutions" class="details section">
+            <div class="container section-title">
+               <h2>Explore Our Solutions </h2>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4 mb-4">
+                     <div class="card">
+                        <div class="card-body">
+                           <i class="bi bi-cart4 card-icon"></i>
+                           <h5 class="card-title">E-commerce & Retail</h5>
+                           <ul class="list-unstyled">
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Digital Marketing</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Website Development</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Customer Engagement</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Call Centre Support</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                     <div class="card">
+                        <div class="card-body">
+                           <i class="bi bi-bank card-icon"></i>
+                           <h5 class="card-title">Banking and Finance</h5>
+                           <ul class="list-unstyled">
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Lead Generation</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Web and App Development</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Customer Education</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Call Centre Solution</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                     <div class="card">
+                        <div class="card-body">
+                           <i class="bi bi-building card-icon"></i>
+                           <h5 class="card-title">Real Estate</h5>
+                           <ul class="list-unstyled">
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Lead Generation</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Website Development</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>WhatsApp Integration
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Call Centre Support</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                     <div class="card">
+                        <div class="card-body">
+                           <i class="bi bi-hospital card-icon"></i>
+                           <h5 class="card-title">Education & Healthcare</h5>
+                           <ul class="list-unstyled">
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Digital Marketing</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Website and App Development</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Form Builder</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Call Centre Support</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                     <div class="card">
+                        <div class="card-body">
+                           <i class="bi bi-calendar-event card-icon"></i>
+                           <h5 class="card-title">Elections & Events</h5>
+                           <ul class="list-unstyled">
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Campaign Management</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Reports Analysis</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>CRM Integration</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Social Media Management</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                     <div class="card">
+                        <div class="card-body">
+                           <i class="bi bi-luggage-fill card-icon"></i>
+                           <h5 class="card-title">Logistics & Travel</h5>
+                           <ul class="list-unstyled">
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Lead Generation & Marketing</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Web & App Development</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Reports and Campaigns</li>
+                              <li><i class="bi bi-check-circle sub-card-icon"></i>Call Centre Support</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Pricing Section -->
+         <section id="pricing" class="pricing section">
+            <div class="container section-title">
+               <h2>Pricing</h2>
+            </div>
+            <div class="container">
+               <div class="row gy-4">
+                  <div class="col-lg-3">
+                     <div class="pricing-item">
+                        <h3>UI/UX/Graphic Design</h3>
+                        <h4><sup>$</sup>19<span> / month</span></h4>
+                        <a href="#" class="cta-btn">Start a free trial</a>
+                        <p class="text-center small" style="color: black">No credit card required</p>
+                        <ul>
+                           <li><i class="bi bi-check"></i> <span>Web Design</span></li>
+                           <li><i class="bi bi-check"></i> <span>Multimedia</span></li>
+                           <li><i class="bi bi-check"></i> <span>Graphic Design</span></li>
+                           <li><i class="bi bi-check"></i> <span>3D/ 2D Animation</span></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="pricing-item featured">
+                        <h3>Development</h3>
+                        <h4><sup>$</sup>39<span> / month</span></h4>
+                        <a href="#" class="cta-btn">Start a free trial</a>
+                        <p class="text-center small" style="color: black">No credit card required</p>
+                        <ul>
+                           <li><i class="bi bi-check"></i> <span>ERP</span></li>
+                           <li><i class="bi bi-check"></i> <span>Full stack</span></li>
+                           <li><i class="bi bi-check"></i> <span>Back-end/ Front-end</span></li>
+                           <li><i class="bi bi-check"></i> <span>Android/ React Native</span></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="pricing-item">
+                        <h3>Digital & Social Media</h3>
+                        <h4><sup>$</sup>29<span> / month</span></h4>
+                        <a href="#" class="cta-btn">Start a free trial</a>
+                        <p class="text-center small" style="color: black">No credit card required</p>
+                        <ul>
+                           <li><i class="bi bi-check"></i> <span>SEO / SMO</span></li>
+                           <li><i class="bi bi-check"></i> <span>PPC</span></li>
+                           <li><i class="bi bi-check"></i> <span>Programmatic</span></li>
+                           <li><i class="bi bi-check"></i> <span>Google Analytics</span></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="pricing-item">
+                        <h3>Managed Services</h3>
+                        <h4><sup>$</sup>49<span> / month</span></h4>
+                        <a href="#" class="cta-btn">Start a free trial</a>
+                        <p class="text-center small" style="color: black">No credit card required</p>
+                        <ul>
+                           <li><i class="bi bi-check"></i> <span>CMS</span></li>
+                           <li><i class="bi bi-check"></i> <span>CRM</span></li>
+                           <li><i class="bi bi-check"></i> <span>IVR</span></li>
+                           <li><i class="bi bi-check"></i> <span>Whatsapp Integration</span></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Contact Section -->
+         <section id="contact" class="contact section">
+            <div class="container section-title">
+               <h2>Contact</h2>
+            </div>
+            <div class="container">
+               <div class="row gy-4">
+                  <div class="col-lg-4">
+                     <div class="info-item d-flex">
+                        <i class="bi bi-geo-alt flex-shrink-0"></i>
+                        <div>
+                           <h3>Address</h3>
+                           <p>F-88, Level-3, Industrial Area,Sector 73,Mohali,S.A.S Nagar,Punjab (India)- 140308 </p>
+                        </div>
+                     </div>
+                     <div class="info-item d-flex">
+                        <i class="bi bi-telephone flex-shrink-0"></i>
+                        <div>
+                           <h3>Call Us</h3>
+                           <p>+91 9216490490</p>
+                        </div>
+                     </div>
+                     <div class="info-item d-flex">
+                        <i class="bi bi-envelope flex-shrink-0"></i>
+                        <div>
+                           <h3>Email Us</h3>
+                           <p>team@edeco.in</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-8">
+                     <iframe 
+                        data-tally-src="https://tally.so/embed/n9RPlQ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                        loading="lazy" 
+                        width="100%" 
+                        height="276" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0" 
+                        title="Contact form"></iframe>
+                     <script>
+                        var d=document,
+                        w="https://tally.so/widgets/embed.js",
+                        v=function(){
+                        	"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){
+                        		e.src=e.dataset.tallySrc}))};
+                        		if("undefined"!=typeof Tally)v();
+                        		else if(d.querySelector('script[src="'+w+'"]')==null){
+                        			var s=d.createElement("script");
+                        			s.src=w,
+                        			s.onload=v,
+                        			s.onerror=v,
+                        			d.body.appendChild(s);}
+                     </script>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!--Footer-->
+      <footer id="footer" class="footer dark-background">
+         <div class="container footer-top">
+            <div class="row gy-4">
+               <div class="col-lg-4 col-md-6 footer-about">
+                  <a href="index.html" class="logo d-flex align-items-center">
+                  <span class="sitename">
+                  <img src="assets/img/Gocoder-icon.png" alt="Gocoder-logo">
+                  <span style="color: white">Gocoder</span>
+                  </span>
+                  </a>
+                  <div class="footer-contact pt-3">
+                     <strong>Address:</strong>
+                     <p> F-88, Level-3, Industrial Area,Sector 73,Mohali,S.A.S Nagar,Punjab (India)- 140308   </p>
+                     <p class="mt-3">
+                        <strong>Phone:</strong> <span>+91 9216490490</span>
+                     </p>
+                  </div>
+                  <div class="social-links d-flex mt-4">
+                     <a href="#"><i class="bi bi-twitter-x"></i></a>
+                     <a href="#"><i class="bi bi-facebook"></i></a>
+                     <a href="#"><i class="bi bi-instagram"></i></a>
+                     <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-md-3 footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                     <li><a href="#hero">Home</a></li>
+                     <li><a href="#about">About us</a></li>
+                     <li><a href="#services">Services</a></li>
+                     <li><a href="#terms">Terms of service</a></li>
+                     <li><a href="#privacy">Privacy policy</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-2 col-md-3 footer-links">
+                  <h4>Our Services</h4>
+                  <ul>
+                     <li><a href="#">UI/UX Development</a></li>
+                     <li><a href="#">Web Development</a></li>
+                     <li><a href="#">Mobile Development</a></li>
+                     <li><a href="#">Digital & Social media</a></li>
+                     <li><a href="#">Managed Services</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-4 col-md-12 footer-newsletter">
+                  <h4>Our Newsletter</h4>
+                  <p>
+                     Subscribe to our newsletter and receive the latest news about our
+                     products and services!
+                  </p>
+                  <form class="php-email-form">
+                     <div class="newsletter-form">
+                        <input type="email" name="email" /><input
+                           type="submit"
+                           value="Subscribe"
+                           />
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <div class="container copyright text-center mt-4">
+            <p>
+               © <span>Copyright 2025</span>
+               <strong class="px-1 sitename">Gocoder</strong>
+               <span>All Rights Reserved</span>
+            </p>
+         </div>
+      </footer>
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <!-- Main JS File -->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
